@@ -6,4 +6,5 @@ ENV N8N_BASIC_AUTH_PASSWORD=admin123
 
 EXPOSE 5678
 
-CMD ["n8n", "start"]
+ENTRYPOINT ["n8nio/n8n"]
+CMD ["start"]
